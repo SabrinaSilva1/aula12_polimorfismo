@@ -1,0 +1,23 @@
+public class Vaporeon extends Eevee {
+
+    public Vaporeon(String tipo, double altura, double HP, double peso) {
+        super(tipo, altura, HP, peso);
+    }
+
+    @Override
+    public String ataque(){
+        return "Arma de água";
+    }
+
+    @Override
+    public String defesa(){
+        return "Cauda Aqua";
+    }
+
+    @Override
+    public String especial(){
+        return "Bomba Hidro";
+    }
+
+    
+}
