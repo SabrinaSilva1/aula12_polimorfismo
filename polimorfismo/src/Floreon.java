@@ -1,7 +1,7 @@
 public class Floreon extends Eevee {
 
-    public Floreon (String tipo, double altura, double HP, double peso) {
-        super(tipo, altura, HP, peso);
+    public Floreon (String nome, String tipo, double altura, double HP, double peso) {
+        super(nome, tipo, altura, HP, peso);
     }
 
     @Override

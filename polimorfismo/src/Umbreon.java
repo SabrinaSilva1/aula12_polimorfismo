@@ -1,7 +1,7 @@
 public class Umbreon extends Eevee {
 
-    public Umbreon (String tipo, double altura, double HP, double peso) {
-        super(tipo, altura, HP, peso);
+    public Umbreon (String nome, String tipo, double altura, double HP, double peso) {
+        super(nome, tipo, altura, HP, peso);
     }
 
     @Override

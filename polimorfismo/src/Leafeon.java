@@ -1,7 +1,7 @@
 public class Leafeon extends Eevee {
 
-    public Leafeon (String tipo, double altura, double HP, double peso) {
-        super(tipo, altura, HP, peso);
+    public Leafeon (String nome, String tipo, double altura, double HP, double peso) {
+        super(nome, tipo, altura, HP, peso);
     }
 
     @Override
